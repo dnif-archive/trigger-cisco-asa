@@ -1,0 +1,6 @@
+trigger_plugin:
+  CISCOASA_USER: <Add_your_cisco-asa_username>
+  CISCOASA_PASS: <Add_your_cisco-asa_password>
+  CISCOASA_SECRET: <Add_your_cisco-asa_enablepass/secret>
+  CISCOASA_GROUP: <Add_your_cisco-asa_block>
+  CISCOASA_FWIP: <Add_your_cisco-asa_firewall_IP>
