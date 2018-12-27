@@ -8,10 +8,10 @@ https://www.cisco.com/c/en_in/products/security/adaptive-security-appliance-asa-
 All **Cisco ASA** Next-Generation Firewalls are powered by Cisco Adaptive Security Appliance (ASA) Software, with enterprise-class stateful inspection and next-generation firewall capabilities. ASA software can also be configured to Integration with other essential network security technologies.
 
 #### PRE-REQUISITES to use Cisco ASA and DNIF  
-Install netmiko python library for this Integration
-pip install netmiko
-Outbound access required for github to clone the plugin
-Enable ssh path for Cisco ASA firewall 
+Install netmiko python library for this Integration  
+pip install netmiko  
+Outbound access required for github to clone the plugin  
+Enable ssh path for Cisco ASA firewall   
 
 | Protocol   | Source IP  | Source Port  | Direction	 | Destination Domain | Destination Port  |  
 |:------------- |:-------------|:-------------|:-------------|:-------------|:-------------|  
@@ -20,10 +20,10 @@ Enable ssh path for Cisco ASA firewall
 
 **Note** The above rule assumes both request and response in enabled  
 
-### Cisco ASA trigger plugin functions
+### Cisco ASA trigger plugin functions  
 Details of the function that can be used with the Cisco ASA is given in this section.  
 [blocksource](#blocksource)  
-[unblocksource](#unblocksource)
+[unblocksource](#unblocksource)  
 
 ### blocksource 
 This function allows for a IP to be blocked on the Cisco ASA firewall .
