@@ -9,9 +9,9 @@ All **Cisco ASA** Next-Generation Firewalls are powered by Cisco Adaptive Securi
 
 #### PRE-REQUISITES to use Cisco ASA and DNIF  
 Install netmiko python library for this Integration  
-pip install netmiko  
+**`pip install netmiko`**  
 Outbound access required for github to clone the plugin  
-Enable ssh path for Cisco ASA firewall   
+**Enable ssh path for Cisco ASA firewall**   
 
 | Protocol   | Source IP  | Source Port  | Direction	 | Destination Domain | Destination Port  |  
 |:------------- |:-------------|:-------------|:-------------|:-------------|:-------------|  
